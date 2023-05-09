@@ -1,0 +1,34 @@
+body {
+  --bege: #E6E0D6;
+  --marrom-escuro: #816D4F;
+  --marrom-claro: #B29463;
+  height: 4000px;
+}
+
+.banner {
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.banner-1 {
+  background-image: url(./assets/banner-1.png);
+}
+
+.banner-2 {
+  background-image: url(./assets/banner-2.png);
+}
+
+.banner-3 {
+  background-image: url(./assets/banner-3.png);
+}
+
+[data-bs-theme="dark"] {
+  color: white;
+  .nav-link {
+    --bs-nav-link-color: white;
+  }
+}
